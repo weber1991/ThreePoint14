@@ -18,5 +18,6 @@ from rd.views import *
 
 urlpatterns = [
     path('', index, name="index"),
-    path('print/', print, name="print"),
+    # path('print/', print, name="print"),
+    path('login/', login, name="login"),
 ]
