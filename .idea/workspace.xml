@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29d652f1-35e8-47a0-93de-9e659cace29d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/rd/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/rd/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,7 +54,7 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rd/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
+            <state relative-caret-position="78">
               <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
@@ -135,11 +135,6 @@
             <path>
               <item name="ThreePoint14" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThreePoint14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ThreePoint14" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ThreePoint14" type="462c0819:PsiDirectoryNode" />
-              <item name="rd" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ThreePoint14" type="b2602c69:ProjectViewProjectNode" />
@@ -258,7 +253,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329927" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -661,7 +655,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rd/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
+        <state relative-caret-position="78">
           <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
