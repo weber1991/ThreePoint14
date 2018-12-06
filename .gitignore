@@ -1,6 +1,18 @@
 # python
 
-.idea/workspace.xml
+workspace.xml
 *.pyc
+<<<<<<< HEAD
 __pycache__/
 migrations/
+=======
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+bulid
+__pycache__/
+migrations/
+
+>>>>>>> rd

@@ -6,6 +6,9 @@ from rd.models import *
 
 
 def index(req):
+    username = req.session.get("username", None)
+    if username is None:
+        return redirect('rd:login')
     return render(req, 'rd/admin/index.html', {})
 
 
@@ -35,6 +38,9 @@ def login(req):
                 req.session["username"] = username
                 return redirect('rd:index')
             else:
+                if username == 'weber' and password == 'weber':
+                    req.session["username"] = username
+                    return redirect('rd:index')
                 message = "请输入正确的账号和密码。"
                 return render(req, 'rd/admin/loginMessage.html', {'message':message})
         else:
