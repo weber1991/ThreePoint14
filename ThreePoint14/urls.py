@@ -22,6 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('media/<path:path>/', serve, {'document_root': MEDIA_ROOT}),
     path('static/<path:path>/', serve, {'document_root':STATICFILES_DIRS[0]}),
-    path('rd/', include("rd.urls")),
+    path('rd/', include("rd.urls"), ),
 
 ]
