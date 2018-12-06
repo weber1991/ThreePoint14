@@ -22,7 +22,7 @@ class BUser(models.Model):
     name = models.CharField(max_length=255, verbose_name='姓名', null=True, blank=True)
     account = models.CharField(max_length=255, verbose_name='账号', null=True, blank=True)
     # 需要加密
-    # passwrod = models.CharField(max_length=255, verbose_name='密码', null=True, blank=True)
+    passwrod = models.CharField(max_length=255, verbose_name='密码', null=True, blank=True)
     phone = models.CharField(max_length=255, verbose_name='电话', null=True, blank=True)
     email = models.CharField(max_length=255, verbose_name='', null=True, blank=True)
     type = models.IntegerField(verbose_name='用户类型', default=1)

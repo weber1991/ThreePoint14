@@ -16,8 +16,8 @@ Including another URLconf
 from django.urls import path
 from rd.views import *
 
+app_name = 'rd'
 urlpatterns = [
     path('', index, name="index"),
-    # path('print/', print, name="print"),
-    path('login/', login, name="login"),
+    path('login', login, name="login"),
 ]
