@@ -2,3 +2,10 @@
 
 .idea/workspace.xml
 *.pyc
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+bulid
+

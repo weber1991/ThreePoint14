@@ -6,6 +6,9 @@ from rd.models import *
 
 
 def index(req):
+    username = req.session.get("username", None)
+    if username is None:
+        return redirect('rd:login')
     return render(req, 'rd/admin/index.html', {})
 
 
