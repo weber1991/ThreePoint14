@@ -8,4 +8,6 @@
 *.egg-info
 dist
 bulid
+__pycache__/
+migrations/
 
